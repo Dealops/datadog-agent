@@ -1,9 +1,5 @@
-init_config:
-
-instances:
-
 logs:
-  - type: file
-    path: "*.log"
+  - type: tcp
+    port: 8125
     source: nodejs
     sourcecategory: sourcecode
