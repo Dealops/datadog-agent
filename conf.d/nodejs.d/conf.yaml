@@ -1,0 +1,9 @@
+init_config:
+
+instances:
+
+logs:
+  - type: file
+    path: "*.log"
+    source: nodejs
+    sourcecategory: sourcecode
